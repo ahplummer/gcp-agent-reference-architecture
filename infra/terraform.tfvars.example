@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+project_id      = "your-project-id"
+region          = "us-central1"
+billing_account = "XXXXXX-XXXXXX-XXXXXX"
+owner           = "your-name"
+
+# Leave empty for the first apply; set after the agent is deployed.
+agent_principal = ""
